@@ -22,16 +22,16 @@ class Result
         c.Add(0);
         for(j=0;j<3;j++)
         {
-        if(a[j]>b[j])
-        {
-            c[0]++;
+            if(a[j]>b[j])
+            {
+                c[0]++;
+            }
+            if(b[j]>a[j])
+            {
+                c[1]++;
+            }
         }
-        if(b[j]>a[j])
-        {
-            c[1]++;
-        }
-    }
-    return c;
+        return c;
     }
 
 }
