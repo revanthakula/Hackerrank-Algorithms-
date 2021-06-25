@@ -16,11 +16,10 @@ class Result
 {
     public static List<int> compareTriplets(List<int> a, List<int> b)
     {
-        int j;
         List<int> c= new List<int> (2);
         c.Add(0);
         c.Add(0);
-        for(j=0;j<3;j++)
+        for(int j=0;j<3;j++)
         {
             if(a[j]>b[j])
             {
