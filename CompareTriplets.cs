@@ -14,22 +14,22 @@ using System;
 
 class Result
 {
-    public static List<int> compareTriplets(List<int> a, List<int> b)
+    public static int[] compareTriplets(List<int> a, List<int> b)
     {
-        List<int> c= new List<int> (2);
-        c.Add(0);
-        c.Add(0);
+        var c0=0;
+        var c1=0;
         for(int j=0;j<3;j++)
         {
             if(a[j]>b[j])
             {
-                c[0]++;
+                c0++;
             }
             if(b[j]>a[j])
             {
-                c[1]++;
+                c1++;
             }
         }
+        int[] c={c0,c1};
         return c;
     }
 
@@ -45,7 +45,7 @@ class Solution
 
         List<int> b = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(bTemp => Convert.ToInt32(bTemp)).ToList();
 
-        List<int> result = Result.compareTriplets(a, b);
+        int[] result = Result.compareTriplets(a, b);
 
         textWriter.WriteLine(String.Join(" ", result));
 
