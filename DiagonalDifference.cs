@@ -16,7 +16,8 @@ class Result
 {
     public static int diagonalDifference(List<List<int>> arr,int n)
     {
-        int d1=0,d2=0;
+        var d1=0;
+        var d2=0;
         for(int i=0;i<n;i++)
         {
             for (int j=0;j<n;j++)
