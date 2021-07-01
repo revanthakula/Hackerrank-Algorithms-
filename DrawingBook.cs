@@ -11,7 +11,8 @@ using System.Runtime.Serialization;
 using System.Text.RegularExpressions;
 using System.Text;
 using System;
-
+/*Problem Name: Drawing Book
+Link:https://www.hackerrank.com/challenges/drawing-book/problem*/
 class Result
 {
     public static int pageCount(int n, int p)
