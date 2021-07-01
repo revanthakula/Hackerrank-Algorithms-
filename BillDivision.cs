@@ -11,7 +11,8 @@ using System.Runtime.Serialization;
 using System.Text.RegularExpressions;
 using System.Text;
 using System;
-
+/*Problem name:Bill Division
+Link:https://www.hackerrank.com/challenges/bon-appetit/problem*/
 class Result
 {
     public static void bonAppetit(List<int> bill, int k, int b)
