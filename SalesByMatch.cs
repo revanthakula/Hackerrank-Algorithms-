@@ -11,7 +11,8 @@ using System.Runtime.Serialization;
 using System.Text.RegularExpressions;
 using System.Text;
 using System;
-
+/*Problem Name: Sales By Match
+Link:https://www.hackerrank.com/challenges/sock-merchant/problem*/
 class Result
 {
     public static int sockMerchant(int n, List<int> ar)
