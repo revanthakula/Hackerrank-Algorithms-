@@ -11,7 +11,8 @@ using System.Runtime.Serialization;
 using System.Text.RegularExpressions;
 using System.Text;
 using System;
-
+/*Problem name:Sales by Match
+Link:https://www.hackerrank.com/challenges/sock-merchant/problem*/
 class Result
 {
     public static int countingValleys(int steps, string path)
